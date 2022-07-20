@@ -34,7 +34,9 @@
     --color-yellow: #d1f503;
   }
 
-
+.{
+    text-align: justify;
+    }
 
 
 
@@ -51,45 +53,9 @@ body {
      font-weight: normal;
      overflow-x: hidden;
      background-color:black;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 100vh;
-       background-image: radial-gradient(circle at 50% 43%, #011027, #000110 70%);
      
 
 }
-
-.T:hover {
-  > .middle, .stem, .middle::after {
-   background: #b2ffff;
-  }
-  
-  .middle, .stem, .top:not(.top2) {
-     box-shadow: 0 0 10px 0 white, 0 0 20px 0 white,
-      0 0 30px 0 white;
-  }
-  .top2 {
-   box-shadow: -4px -7px 13px 0 white;
-  }
-  
-  .top {
-    border: 9px solid #7ff9f9;
-  }
-  
-  .middle::after {
-       border-left: 4px solid #7ff9f9;
- 
-  }
-  .bg {
-   opacity: 7.1;
- 
-   transform: scale(1.1) skewY(-15deg) translate(-46%, -44%);
-  }
- }
- 
-
-
 
 a {
      color: #1f1f1f;
@@ -116,11 +82,10 @@ h6 {
      line-height: normal;
      color: #111111;
      margin: 0
-     
 }
 
 h1 {
-     font-size: 4px
+     font-size: 24px
 }
 
 h2 {
@@ -549,7 +514,7 @@ button {
 	border-bottom: 1px solid #000;
     text-align:center;
   position:relative;
-  border:15px solid #1086e8;
+  border:5px solid #1086e8;
   width:395px;
   top:170px;
   border-radius:20px;
@@ -565,7 +530,6 @@ h1 {
     font-size:64px;
     letter-spacing:10px;
     animation: text-flicker 3s linear infinite;
-    text-align: center;
   }
 
   #offset {
