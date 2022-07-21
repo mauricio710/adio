@@ -279,10 +279,12 @@ button {
     float: left;
     background-image: url(../images/banner-bg.png);
     height: auto;
-    padding: 20px 0;
+    padding: 40px 0;
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 90vh;
+    justify-content: space-between;
+
 }
 
 .header { 
@@ -290,6 +292,8 @@ button {
 	float: left;
 	background: #090e36;
 	height: auto;
+  justify-content: space-between;
+  padding: 30px;
  }
 
 
